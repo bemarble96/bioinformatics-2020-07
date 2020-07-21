@@ -2,5 +2,5 @@
 
 for i in A B C D
 do
-  python t.py ${i}
+  python3 t.py ${i}
 done

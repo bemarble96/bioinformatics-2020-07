@@ -20,7 +20,7 @@ total = 0
 for k,v in d.items():
      total += v
 with open("result.txt", 'w') as handle:
-    handle.write(f"A:{d['A']}"\n)
-    handle.write(f"C:{d['C']}"\n)
-    handle.write(f"G:{d['G']}"\n)
-    handle.write(f"T:{d['T']}"\n)
+    handle.write(f"A:{d['A']}\n")
+    handle.write(f"C:{d['C']}\n")
+    handle.write(f"G:{d['G']}\n")
+    handle.write(f"T:{d['T']}\n")
