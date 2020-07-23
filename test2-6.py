@@ -1,4 +1,3 @@
-import sys
 
 
 
@@ -16,8 +15,6 @@ def mer(base1,base2,n):
 base1 = ["A","C","G","T"]
 base2 = ["A","C","G","T"]
 
-n = int(sys.argv[1])
+n = 7
 
-print(mer(base1,base2,n))
-#print(list) 
-#print(ret)   
+seq = mer(base1,base2,n))

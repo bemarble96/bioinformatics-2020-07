@@ -13,7 +13,7 @@ def read_csv(file_name:str) ->list:
     return ret
 
 def to_json(l:list,file_name:str) -> None:
-    with open("test2-4.json",'w') as handle:
+    with open("test2-4.json",'w') as handle: # 저장할 이름을 지정
         json.dump(l,handle)
 
 if __name__=="__main__":
